@@ -21,23 +21,27 @@ const Contact = () => {
           <div className="flex flex-col">
             <span className="text-[20px] text-secondary font-medium mb-4">
               <h1>Mail me</h1></span>
+              <div className="bg-tertiary">
             <a href="mailto:f20201781@hyderabad.bits-pilani.ac.in"
-              className="text-white text-[14px] bg-tertiary flex justify-center"> f20201781@hyderabad.bits-pilani.ac.in</a>
+              className="text-secondary text-[14px]  py-1 flex justify-center hover:text-white" > f20201781@hyderabad.bits-pilani.ac.in</a>
+              </div>
           </div>
           <div className="flex flex-col">
             <span className="text-secondary text-[20px] font-medium ">
               <h1>Call me </h1>
-              <p className="text-white text-[14px]  bg-tertiary flex justify-center">
-                <Callto phone="+917017122004">+91 7017122004</Callto>
-              </p>
+              <div className="bg-tertiary">
+                <p className="text-secondary text-[14px] py-1 flex justify-center hover:text-white">
+                  <Callto phone="+917017122004">+91 7017122004</Callto>
+                </p>
+              </div>
             </span>
           </div>
         </div>
         <p className={styles.sectionSubText}>Also checkout my</p>
         <a href="https://github.com/Manav2003" target="_blank"
-              className=" mt-5 text-white text-[15px] bg-tertiary flex justify-center" rel="noreferrer"> Github </a>
+          className=" mt-5 text-secondary text-[15px] bg-tertiary flex justify-center hover:text-white" rel="noreferrer"> Github </a>
         <a href="https://leetcode.com/user2839vm/" target="_blank"
-              className="mt-5 text-white text-[15px] bg-tertiary flex justify-center" rel="noreferrer"> LeetCode </a>
+          className="mt-5 text-secondary text-[15px] bg-tertiary flex justify-center hover:text-white" rel="noreferrer"> LeetCode </a>
 
       </motion.div>
       <motion.div

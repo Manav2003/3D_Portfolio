@@ -25,9 +25,9 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-3xl sm:w-[290px] w-full'
       >
         <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
+          <div//img
+            // src={image}
+            // alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
 
