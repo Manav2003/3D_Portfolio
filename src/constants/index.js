@@ -4,21 +4,13 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  urjanet,
   threejs,
 } from "../assets";
 
@@ -70,16 +62,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -90,10 +74,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -101,66 +81,19 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Urjanet (Arcadia) ",
+    icon: urjanet,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed a code which automates the extraction of targeted data",
+      "The automated code selects a bill pdf, converts it into a TET format and uses the coordinates to check for the different head entities such account no, address, meter reading, etc. ",
+      "Having the data extracted the output is in the form of a doc with the extruded values in it.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -197,38 +130,38 @@ const projects = [
   {
     name: "Shopping Cart",
     description:
-      "Web-based platform that allows users to search, add and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, add and manage products, providing a convenient user experience.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Manav2003/ShoppingCartE_Commerce",
   },
   {
     name: "3D Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An innovative and interactive online portfolio to showcase my skills and projects in a visually appealing and engaging manner.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],
@@ -240,19 +173,19 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "eclipse",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "regex",
         color: "pink-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Manav2003/PDF_Finder",
   },
 ];
 
