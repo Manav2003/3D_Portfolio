@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
-import { EarthCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -15,7 +14,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915eff]'> Manav </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`mt-2 text-white-50 sm:text-[18px] text-[14px]`}>
             A go-getter,quick to learn with great teamwork <br className='sm:block hidden' /> and leardership qualities.
             Driven by my love for<br className='sm:block hidden' /> problem solving I thrive on turning  complex 
             <br className='sm:block hidden' />ideas into  user-friendly solutions.  
